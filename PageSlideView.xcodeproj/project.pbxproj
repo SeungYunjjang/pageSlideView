@@ -12,6 +12,11 @@
 		C9053D6E225CBC370041812D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9053D6C225CBC370041812D /* Main.storyboard */; };
 		C9053D70225CBC380041812D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9053D6F225CBC380041812D /* Assets.xcassets */; };
 		C9053D73225CBC380041812D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9053D71225CBC380041812D /* LaunchScreen.storyboard */; };
+		C9053D82225CBCAD0041812D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9053D7D225CBCAD0041812D /* MainViewController.swift */; };
+		C9053D83225CBCAD0041812D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9053D7E225CBCAD0041812D /* SecondViewController.swift */; };
+		C9053D84225CBCAD0041812D /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9053D7F225CBCAD0041812D /* SideMenuViewController.swift */; };
+		C9053D85225CBCAD0041812D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9053D80225CBCAD0041812D /* FirstViewController.swift */; };
+		C9053D86225CBCAD0041812D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9053D81225CBCAD0041812D /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		C9053D6F225CBC380041812D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9053D72225CBC380041812D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9053D74225CBC380041812D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9053D7D225CBCAD0041812D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C9053D7E225CBCAD0041812D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C9053D7F225CBCAD0041812D /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		C9053D80225CBCAD0041812D /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C9053D81225CBCAD0041812D /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		C9053D67225CBC370041812D /* PageSlideView */ = {
 			isa = PBXGroup;
 			children = (
+				C9053D7C225CBC9D0041812D /* ViewController */,
 				C9053D68225CBC370041812D /* AppDelegate.swift */,
 				C9053D6A225CBC370041812D /* ViewController.swift */,
 				C9053D6C225CBC370041812D /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				C9053D74225CBC380041812D /* Info.plist */,
 			);
 			path = PageSlideView;
+			sourceTree = "<group>";
+		};
+		C9053D7C225CBC9D0041812D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9053D7D225CBCAD0041812D /* MainViewController.swift */,
+				C9053D7F225CBCAD0041812D /* SideMenuViewController.swift */,
+				C9053D80225CBCAD0041812D /* FirstViewController.swift */,
+				C9053D7E225CBCAD0041812D /* SecondViewController.swift */,
+				C9053D81225CBCAD0041812D /* ThirdViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9053D83225CBCAD0041812D /* SecondViewController.swift in Sources */,
+				C9053D82225CBCAD0041812D /* MainViewController.swift in Sources */,
 				C9053D6B225CBC370041812D /* ViewController.swift in Sources */,
+				C9053D86225CBCAD0041812D /* ThirdViewController.swift in Sources */,
+				C9053D85225CBCAD0041812D /* FirstViewController.swift in Sources */,
+				C9053D84225CBCAD0041812D /* SideMenuViewController.swift in Sources */,
 				C9053D69225CBC370041812D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
