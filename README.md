@@ -9,5 +9,6 @@
 
 
 ## 3. SideMenu list click page Slide (Side Menu -> https://github.com/SeungYunjjang/sideMenu)
-<img src="https://user-images.githubusercontent.com/49330255/55843030-0c75f580-5b71-11e9-8428-d92ae7d8be4e.gif" height="200" width="100">
+<img src="https://user-images.githubusercontent.com/49330255/55843261-54e1e300-5b72-11e9-99f4-296cfa571b3d.gif" height="200" width="100">
+
 
